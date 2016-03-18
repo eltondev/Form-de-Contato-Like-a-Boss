@@ -18,7 +18,7 @@ font-size: 14px; }
 #bg-form em{margin-top:-15px; margin-left:10px; margin-bottom:10px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#710909; float:left;}
 #form{ font-family:Verdana, Geneva, sans-serif; width:420px; display:block; float:left; margin-top:20px; }
 #form span{ float:left; font-family:Verdana, Geneva, sans-serif; font-size:14px; margin-left:10px; width:100px; }
-#form input, textarea{padding:3px; margin-bottom:5px; border:1px solid #999999; -moz-border-radius:3px; -webkit-border-radius:3px; color:#999999;}
+#form input, textarea{padding:3px; margin-bottom:5px; border:1px solid #999999; -moz-border-radius:3px; -webkit-border-radius:3px; color:#999999;resize:none;}
 #form input:focus, textarea:focus{border-color:#999999;}
     .textarea{ width:280px; height:50px; color:#666666; font-family:Verdana, Geneva, sans-serif;}
     .width280{width:280px; height:23px; }
