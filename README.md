@@ -5,3 +5,6 @@ Simples formulário de contato feio usando classe, em breve faço a explicação
 Aceito PR com CSS, HTML e tudo mais!
 
 > [Acesse a demo](http://eltondev.com.br/contato).
+
+
+![Alt Text](http://www.ibsaude.org.br/wp-content/uploads/2013/07/banner-07-contato.jpg)
