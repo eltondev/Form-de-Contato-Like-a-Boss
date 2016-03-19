@@ -12,62 +12,72 @@
  
 		
 		<meta name="language" content="pt_BR" />
-		<meta content='width=device-width, initial-scale=1.0' name='viewport' />
-		
+		<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+		<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" charset="utf-8" />
-		
-       <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-       <script type="text/javascript" src="js/javascript.js"></script>
-       <script type="text/javascript" src="http://cidades-estados-js.googlecode.com/files/cidades-estados-v0.2.js"></script>
 	
-	   <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	</head>
 	
 		
         
 <div id="right-envia"> 	  
-        <div id="bg-form">           
-                			
-		<span>Entre em contato, agora mesmo.</span>    
+    <div id="bg-form">
+        <span class="lobs__t">Entre em contato, agora mesmo.</span>    
     	
         <div id="form">
-        <form id="formulario" action="javascript:resposta();" method="post">			
-            <span>Nome:</span><input name="nome" class="width280" type="text"  id="nome" />          
-            <span>Área:</span><input name="ddd" class="ddd" type="text" id="ddd" /><span style="width:70px;">Telefone:</span><input name="telefone" class="telefone" type="text" id="telefone" /><br /> 
-            <span>Operadora:</span> <select id="operadora" class="select" name="operadora">
+            <form id="formulario" action="javascript:resposta();" method="post">			
+                <span>Nome:</span><input name="nome" class="width280" type="text"  id="nome" />    
+
+                <span>Área:</span><input name="ddd" class="ddd" id="ddd" type="text" />
+
+                <span style="width:70px;">Telefone:</span><input name="telefone" class="telefone" type="text" id="telefone" /><br /> 
+
+                <span>Operadora:</span> <select id="operadora" class="select" name="operadora">
                                         <option value="">Selecione</option>
-            							<option value="Vivo">Vivo</option>
+                						<option value="Vivo">Vivo</option>
                                         <option value="Tim">Tim</option>
                                         <option value="Oi">Oi</option>
                                         <option value="Claro">Claro</option>
                                         <option value="Nextel">Nextel</option>
                                         <option value="Fixo">Fixo</option>
-            				     </select>     
-            <span>Eu sou:</span> <select id="funcao" class="select" name="funcao">
+                				     </select>   
+
+                <span>Eu sou:</span> <select id="funcao" class="select" name="funcao">
                                         <option value="">Selecione</option>
-            							<option value="Opção 1">Opção 1</option>
+                						<option value="Opção 1">Opção 1</option>
                                         <option value="Opção 2">Opção 2</option>
                                         <option value="Opção 3">Opção 3</option>
-            				     </select>        
-			<span>Email:</span><input name="email" type="text" class="width280" id="email" />			
-            <span>Endereço:</span><input name="endereco" class="width280" type="text" id="endereco" />
-			<span>Estado:</span><select id="estado" class="select" name="estado"></select>	            
-            <span>Cidade:</span> <select id="cidade" class="select" name="cidade"></select>            
-            <span>Assunto:</span><input name="assunto" class="width280" type="text" id="assunto" />
-			<span>Mensagem:</span><textarea class="textarea" name="mensagem" id="mensagem"></textarea>
-			<input type="submit" name="submit" id="enviar_contato" value="Enviar" />
-	    </form>       
-        <div id="loading"></div>
-        <div id="envolve">
-        <div id="aviso"></div></div>  
+                				     </select>     
+
+    			<span>Email:</span><input name="email" type="text" class="width280" id="email" />			
+                <span>Endereço:</span><input name="endereco" class="width280" type="text" id="endereco" />
+
+    			<span>Estado:</span><select id="estado" class="select" name="estado"></select>	            
+                <span>Cidade:</span> <select id="cidade" class="select" name="cidade"></select>   
+
+                <span>Assunto:</span><input name="assunto" class="width280" type="text" id="assunto" />
+
+    			<span>Mensagem:</span><textarea class="textarea" name="mensagem" id="mensagem"></textarea>
+    			<input type="submit" name="submit" class="lobs__t" id="enviar_contato" value="Enviar" />
+    	    </form>    
+
+            <div id="loading"></div>
+            <div id="envolve">
+            <div id="aviso"></div></div>  
   
         </div><!--Form-->          
-         </div><!--BG Form-->          
-           </div><!--Right -->
+    </div><!--BG Form-->          
+</div><!--Right -->
        
 
         
-        <div id="footer">
-        </div>	
+    <div id="footer">
+    </div>	
+
+        
+   <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <script type="text/javascript" src="http://cidades-estados-js.googlecode.com/files/cidades-estados-v0.2.js"></script>
   </body>
 </html>
