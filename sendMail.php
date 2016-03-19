@@ -3,8 +3,8 @@
 <?php
 
      if(isset($_POST)){
-			class Email {
-					public $nome = "";
+	     class Email {
+		    public $nome = "";
                     public $ddd = "";
                     public $telefone = "";
                     public $op = "";
