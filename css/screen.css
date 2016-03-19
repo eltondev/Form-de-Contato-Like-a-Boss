@@ -1,3 +1,8 @@
+* {font-family:Verdana, Geneva, sans-serif;}
+:focus{border-color:#999;}
+#clear{clear:both;}
+
+body {background-color:#ccc;}  
 html {
   margin: 0;
   padding: 0;
@@ -5,31 +10,129 @@ html {
 }
 
 @import url(latoregular.css);
+                                                      
+#right-envia {
+  width:440px; 
+  height:460px; 
+  margin-left:32%; 
+  margin-top:10px; 
+  font-size: 14px; 
+}
 
-body { background-color:#cccccc;}                                              					 
-#clear{clear:both;}
-
-@font-face { font-family: 'lobster_1.3regular';src: url('../fontes/lobster_1.3.eot'); src: url('../fontes/lobster_1.3.eot?#iefix') format('embedded-opentype'),url('../fontes/lobster_1.3.woff') format('woff'), url('../fontes/lobster_1.3.ttf') format('truetype'),url('../fontes/lobster_1.3.svg#lobster_1.3regular') format('svg');font-weight: normal;font-style: normal;}
-
-#right-envia{float:left; width:440px; height:460px; margin-left:32%; margin-top:10px; font-family: Verdana, Geneva, sans-serif;
-font-size: 14px; }
 #bg-form{}
-#bg-form span{font-family:'lobster_1.3regular', sans-serif; float:left; font-size:24px; color:#666666; margin:5px;}
-#bg-form em{margin-top:-15px; margin-left:10px; margin-bottom:10px; font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#710909; float:left;}
-#form{ font-family:Verdana, Geneva, sans-serif; width:420px; display:block; float:left; margin-top:20px; }
-#form span{ float:left; font-family:Verdana, Geneva, sans-serif; font-size:14px; margin-left:10px; width:100px; }
-#form input, textarea{padding:3px; margin-bottom:5px; border:1px solid #999999; -moz-border-radius:3px; -webkit-border-radius:3px; color:#999999;resize:none;}
-#form input:focus, textarea:focus{border-color:#999999;}
-    .textarea{ width:280px; height:50px; color:#666666; font-family:Verdana, Geneva, sans-serif;}
-    .width280{width:280px; height:23px; }
-    .msg{width:278px; height:80px; float:right;}
-    .ddd{width:40px; height:23px; float:left; }
-    .telefone{width:147px; height:23px; overflow:auto;}
-    .select{width:288.12px; height:30px; padding:3px; margin-bottom:5px; color:#999999; border:1px solid #999999; -moz-border-radius:3px; -webkit-border-radius:3px;}
-#enviar_contato{width:288px; height:50px; float:right; margin-right:16px; font-family:'lobster_1.3regular', sans-serif; font-size:20px; color:#F2f2f2; background-color:#666666; border:0;}
-#enviar_contato:hover{background-color:#333333; cursor:pointer; color:#ffffff;}
-#erro{width:260px; margin-left:115px; margin-top:60px; background:#f8f8f8; color:#900; padding:14px;}
-#sucesso{width:260px; margin-left:115px; margin-top:60px; background:#f8f8f8; color:#063; padding:14px;}
+
+.lobs__t {
+  font-family: 'Lobster', cursive;
+  font-size:24px; 
+  margin:5px;
+}
+
+#bg-form em {
+  margin-top:-15px; 
+  margin-bottom:10px; 
+  font-size:12px; 
+  color:#710909; 
+}
+
+#form { 
+  width:420px; 
+  display:block;
+  margin-top:20px; 
+}
+
+#form span { 
+  font-size:14px; 
+  width:100px; 
+}
+
+#form input, 
+textarea {
+  padding:3px; 
+  margin-bottom:5px; 
+  border:1px solid #999; 
+  -moz-border-radius:3px; 
+  -webkit-border-radius:3px; 
+  resize:none;
+}
+
+.textarea{height:50px;}
+
+.msg {
+  width:278px; 
+  height:80px; 
+}
+
+.ddd {width:40px;}
+
+.ddd,
+.telefone {height:23px;}
+
+.telefone {
+  width:147px; 
+  overflow:auto;
+}
+
+.select {
+  width:288.12px; 
+  height:30px; 
+  padding:3px; 
+  margin-bottom:5px; 
+  border:1px solid #999; 
+  -moz-border-radius:3px; 
+  -webkit-border-radius:3px;
+}
 
 
-	
+#enviar_contato {
+  width:288px; 
+  height:50px; 
+  margin-right:16px; 
+  font-size:20px; 
+  color:#f2f2f2; 
+  background-color:#666; 
+  border:0;
+}
+
+#enviar_contato:hover {
+  background-color:#333; 
+  cursor:pointer; 
+  color:#fff;
+}
+
+
+#erro,
+#sucesso {
+  width:260px; 
+  margin-left:115px; 
+  margin-top:60px; 
+  background:#f8f8f8;
+  padding:14px;
+}
+
+#sucesso{color:#063;}
+#erro{color:#900;}
+
+#right-envia,
+.lobs__t,
+#bg-form em,
+#form,
+#form span,
+.ddd {float:left;}
+
+.width280,
+.textarea {width:280px;}
+
+.width280{height:23px;}
+
+#bg-form em,
+#form span {margin-left:10px;}
+
+.msg,
+#enviar_contato {float:right;}
+
+.lobs__t,
+.textarea {color:#666;}
+
+#form input, 
+.textarea,
+.select {color:#999;}
